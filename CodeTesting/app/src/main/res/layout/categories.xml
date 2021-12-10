@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="8dp"
+    tools:context=".CategoriesScreenActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <RelativeLayout
+                android:id="@+id/card1"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:padding="8dp"
+                android:layout_margin="16dp"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/darkbackground">
+
+                <ImageView
+                    android:id="@+id/movieIcon1"
+                    android:layout_width="170dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:layout_alignParentLeft="true"
+                    android:src="@drawable/img_1" />
+
+                <TextView
+                    android:id="@+id/movieName1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/movieIcon1"
+                    android:layout_alignRight="@id/movieIcon1"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="197dp"
+                    android:layout_marginEnd="-170dp"
+                    android:layout_marginRight="-102dp"
+                    android:layout_marginBottom="119dp"
+                    android:text="Oblivian"
+                    android:textColor="#3CD8DD"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignEnd="@+id/movieIcon1"
+                    android:layout_alignBottom="@+id/movieIcon1"
+                    android:layout_marginEnd="-71dp"
+                    android:layout_marginBottom="85dp"
+                    android:text="53 min"
+                    android:textColor="#3CD8DD"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignEnd="@id/movieIcon1"
+                    android:layout_alignRight="@id/movieIcon1"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="64dp"
+                    android:layout_marginRight="-111dp"
+                    android:layout_marginBottom="31dp"
+                    android:text="Rating : 79%"
+                    android:textColor="#3CD8DD"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/card2"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:padding="8dp"
+                android:layout_margin="16dp"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/darkbackground">
+
+                <ImageView
+                    android:id="@+id/movieIcon2"
+                    android:layout_width="170dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:layout_alignParentLeft="true"
+                    android:src="@drawable/img_2" />
+
+                <TextView
+                    android:id="@+id/movieName2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/movieIcon2"
+                    android:layout_alignRight="@id/movieIcon2"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="197dp"
+                    android:layout_marginEnd="-170dp"
+                    android:layout_marginRight="-102dp"
+                    android:layout_marginBottom="119dp"
+                    android:text="Titanic"
+                    android:textColor="#3CD8DD"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignEnd="@+id/movieIcon2"
+                    android:layout_alignBottom="@+id/movieIcon2"
+                    android:layout_marginEnd="-71dp"
+                    android:layout_marginBottom="85dp"
+                    android:text="72 min"
+                    android:textColor="#3CD8DD"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignEnd="@id/movieIcon2"
+                    android:layout_alignRight="@id/movieIcon2"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="64dp"
+                    android:layout_marginRight="-111dp"
+                    android:layout_marginBottom="31dp"
+                    android:text="Rating : 91%"
+                    android:textColor="#3CD8DD"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/card3"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:padding="8dp"
+                android:layout_margin="16dp"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/darkbackground">
+
+                <ImageView
+                    android:id="@+id/movieIcon3"
+                    android:layout_width="170dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:layout_alignParentLeft="true"
+                    android:src="@drawable/img_5" />
+
+                <TextView
+                    android:id="@+id/movieName3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/movieIcon3"
+                    android:layout_alignRight="@id/movieIcon3"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="197dp"
+                    android:layout_marginEnd="-170dp"
+                    android:layout_marginRight="-102dp"
+                    android:layout_marginBottom="119dp"
+                    android:text="InterSteler"
+                    android:textColor="#3CD8DD"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignEnd="@+id/movieIcon3"
+                    android:layout_alignBottom="@+id/movieIcon3"
+                    android:layout_marginEnd="-71dp"
+                    android:layout_marginBottom="85dp"
+                    android:text="64 min"
+                    android:textColor="#3CD8DD"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignEnd="@id/movieIcon3"
+                    android:layout_alignRight="@id/movieIcon3"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="64dp"
+                    android:layout_marginRight="-111dp"
+                    android:layout_marginBottom="31dp"
+                    android:text="Rating : 83%"
+                    android:textColor="#3CD8DD"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/card4"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:padding="8dp"
+                android:layout_margin="16dp"
+                android:layout_marginBottom="16dp"
+                android:background="@drawable/darkbackground">
+
+                <ImageView
+                    android:id="@+id/movieIcon4"
+                    android:layout_width="170dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10dp"
+                    android:layout_alignParentLeft="true"
+                    android:src="@drawable/img_6" />
+
+                <TextView
+                    android:id="@+id/movieName4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/movieIcon4"
+                    android:layout_alignRight="@id/movieIcon4"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginStart="197dp"
+                    android:layout_marginEnd="-170dp"
+                    android:layout_marginRight="-102dp"
+                    android:layout_marginBottom="119dp"
+                    android:text="Gangstar"
+                    android:textColor="#3CD8DD"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignEnd="@+id/movieIcon4"
+                    android:layout_alignBottom="@+id/movieIcon4"
+                    android:layout_marginEnd="-71dp"
+                    android:layout_marginBottom="85dp"
+                    android:text="53 min"
+                    android:textColor="#3CD8DD"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignEnd="@id/movieIcon4"
+                    android:layout_alignRight="@id/movieIcon4"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginEnd="64dp"
+                    android:layout_marginRight="-111dp"
+                    android:layout_marginBottom="31dp"
+                    android:text="Rating : 68%"
+                    android:textColor="#3CD8DD"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
